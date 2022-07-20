@@ -1,5 +1,5 @@
 
-<?php require($_SERVER['DOCUMENT_ROOT']."/PHP/belajar/hitungipk/config.php");
+<?php require($_SERVER['DOCUMENT_ROOT']."/config.php");
 
     $jml_matkul = $_GET['jumlah_matkul'];
     $type_n = $_GET['tipe_nilai'];
