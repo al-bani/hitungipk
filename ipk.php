@@ -1,4 +1,4 @@
-<?php require($_SERVER['DOCUMENT_ROOT']."/PHP/belajar/hitungipk/config.php");
+<?php require($_SERVER['DOCUMENT_ROOT']."/config.php");
     $jml_smt = $_GET['jumlah_semester'];
 
     if (empty($_GET['jumlah_semester'])){
