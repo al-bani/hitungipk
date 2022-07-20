@@ -1,5 +1,5 @@
 
-<?php require($_SERVER['DOCUMENT_ROOT']."/PHP/belajar/hitungipk/config.php"); 
+<?php require($_SERVER['DOCUMENT_ROOT']."config.php"); 
 
     if (isset($_POST["submit"])){
         $pil = $_POST["choose"];
