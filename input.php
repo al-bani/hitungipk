@@ -1,4 +1,4 @@
-<?php require($_SERVER['DOCUMENT_ROOT']."/PHP/belajar/hitungipk/config.php"); ?>
+<?php require($_SERVER['DOCUMENT_ROOT']."/config.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
