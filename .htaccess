@@ -11,10 +11,3 @@ RewriteRule ^([^\.]+)$ $2.php [NC,L]
 ## ganti ekstensi
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s] [NC]
 RewriteRule ^ /%1 [R=301,NE,L]
-
-## protect .htaccess
-<Files ~ "^.*\.([Hh][Tt][Aa])">
-	Order allow,deny
-	Deny from all
-	Satisfy all
-</Files>
