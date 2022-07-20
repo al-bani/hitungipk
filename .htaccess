@@ -2,7 +2,7 @@ Options +MultiViews
 RewriteEngine On
 
 ## Error
-ErrorDocument 404 /PHP/belajar/hitungipk/error.php
+ErrorDocument 404 /error.php
 
 ## hapus ekstensi
 RewriteCond %{REQUEST_FILENAME} !-f
