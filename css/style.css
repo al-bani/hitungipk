@@ -1,0 +1,101 @@
+body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+.form {
+    width: 400px;
+	margin: 180px auto;
+	padding: 10px 20px 50px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px 0px #000000;
+    border-style: solid;
+    border-color: #1363DF;
+    background: #fff;
+}
+
+.medium-form {
+    width: 600px;
+	margin: 180px auto;
+	padding: 10px 20px 50px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px 0px #000000;
+    border-style: solid;
+    border-color: #1363DF;
+    background: #fff;
+}
+
+.long-form {
+    width: 800px;
+	margin: 180px auto;
+	padding: 10px 20px 50px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px 0px #000000;
+    border-style: solid;
+    border-color: #1363DF;
+    background: #fff;
+}
+
+h2 {
+	color: #1363DF;
+    font-size: 15pt;
+}
+
+
+.opt {
+    width: 136px;
+    height: 25px;
+
+    color: #1363DF;
+    background: #FFFFFF;
+    border: 1px solid #1363DF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textbox {
+    width: 136px;
+    height: 20px;
+
+    color: #1363DF;
+    background: #FFFFFF;
+    border: 1px solid #1363DF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn {
+    width: 65px;
+    height: 25;
+
+    background: #1363DF;
+    border-radius: 999px;
+    border: 4px solid #1363DF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+}
+
+.btn:active {
+    background: #03265a;
+    box-shadow: 0px 4px 4px #03265a(0, 0, 0, 0.25);
+    border: 4px solid #03265a;
+}
+
+.link {
+    color: #1363DF;
+    font-size: 13pt;
+}   
+
+.link-me {
+    color: #1363DF;
+    font-size: 13pt;
+
+    position:absolute;
+    top:9px;
+    left:9px;
+}   
+
+.error {
+    margin-top: 150px;
+}
