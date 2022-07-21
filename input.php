@@ -35,7 +35,7 @@
         <label for="jumlah_semester" class="link" >Masukkan Jumlah semester : </label>
         <input class="textbox" type="Number" name="jumlah_semester" max="14" min="1" placeholder="input number" autofocus required>
         <input type="submit" class="btn">
-        <p> <a class="link"href="/PHP/belajar/hitungipk/">kembali</a></p>
+        <p> <a class="link"href="https://alcupu.herokuapp.com/">kembali</a></p>
     </form>
     </div>
 <?php } ?>
